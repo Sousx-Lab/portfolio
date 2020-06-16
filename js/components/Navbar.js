@@ -26,7 +26,7 @@ export class Navbar {
                         <nav class="navbar">
                             <ul id="nav-items"> 
                             ${this.navElement.map(elem => `
-                                <li><a class="${this.activeItems(elem.link)}" href="${elem.link}">${elem.name}</a></li>
+                                <li><a class="nav-item${this.activeItems(elem.link)}" href="${elem.link}">${elem.name}</a></li>
                                 `).join('')}
                             </ul>
                         </nav>
@@ -49,6 +49,7 @@ export class Navbar {
             .insertAdjacentHTML('afterbegin', this.markup());
         };
         this.reponsive();
+        this.activeItems();
     };
 
     /**
@@ -60,15 +61,15 @@ export class Navbar {
         let active = " "
         if(location.hash && location.hash === link){
             location.assign('/#contact')
-            active = "active";
+            active = "-active";
             return active;
         }else if(link === currentURI[1]){
-            active = "active";
+            active = "-active";
             return active;
         }else{
             return active;
         };
-        
+
     };
 
     reponsive(){
@@ -83,8 +84,7 @@ export class Navbar {
            }else if(navItems.className === "wrap"){
              navItems.className = "";
              close.className = "fa fa-bars fa-2x"
-           }
-        })
-    }
-
+           };
+        });
+    };
 };
