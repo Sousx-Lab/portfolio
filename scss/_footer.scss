@@ -1,0 +1,34 @@
+/** Contact section*/
+.social-icons a{
+    display: inline-block;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: $gray-700;
+    color: $white;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin-right: 0.5rem;
+}
+footer {
+    position: absolute;
+    bottom:0;
+    width:100%;
+    height: 450px;
+    background-color: $ruby
+}
+
+footer .container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+footer h1,
+footer h3,
+footer p{
+    color: $white;
+}
+.notbold{
+    font-weight: normal;
+}

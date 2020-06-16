@@ -1,0 +1,96 @@
+
+/* debug /
+*{
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important; 
+}
+*/
+* {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html{
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+body {
+    position: relative;;
+    min-height: 100%;
+    width: 100%;
+    padding-bottom: 450px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    
+}
+h1,
+h2,
+h3,
+h4 {
+    color: $black;
+}
+
+h1 {
+    font-size: 33px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+h5{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.p-big{
+    line-height: 36px;
+    font-weight: 200;
+    font-size: 20px;
+    color: $black;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: $gray-800
+}
+.text-center{
+    text-align: center;
+}
+.bolder{
+    font-weight: 600;
+}
+.text-right{
+    text-align: right;
+}
+.underdotted{
+    width: 0px;
+    text-decoration: underline dotted;
+}
+.underdotted:hover{
+    transition-duration: background-color 0.25s ease-out;
+    background-color: $beige;
+}
+
+.subheading{
+    color: $gray-600;
+}

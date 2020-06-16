@@ -1,0 +1,12 @@
+
+.date{
+    @include sm {
+        text-align: left;
+    }
+    @include md {
+        text-align: right;
+    }
+    color: $ruby;
+    font-weight: 600;
+
+}

@@ -1,0 +1,47 @@
+/** Skills section */
+
+#skills{
+    background-color: $gray-100;
+    position: relative;
+}
+
+.dev-icons {
+    background-color: $white;
+    color: $gray-700;
+    border-radius: 100%;
+    font-size: 5rem;
+    line-height: 3.5rem;
+}
+
+.list-inline{
+    width: 100%;
+    text-align: center;
+}
+
+.list-inline li{
+    display: inline-block;
+    padding: 0.1em 0.2em 0.1em 0.2em;
+}
+
+.fa-html5:hover{
+    color: $orange
+}
+
+.fa-css3-alt:hover{
+    color: $blue
+}
+
+.fa-js-square:hover{
+    color: $yellow;
+}
+
+.fa-php:hover{
+    color: $php
+}
+.fa-symfony:hover{
+    color: $black;
+}
+
+.fa-react:hover{
+    color: $react;
+}

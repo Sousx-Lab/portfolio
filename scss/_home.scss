@@ -1,0 +1,27 @@
+.profil-home{
+    @include sm{
+        display: flex;
+        justify-content: center;
+        margin: 0px;    
+    }
+    display: none;
+    justify-content: center;
+    margin: 0px;
+}
+
+.img-profil-md{
+    height: auto; 
+    width: 10rem; 
+    max-width: 100%; 
+    border-radius: 50%;
+    border: 5px solid;
+    border-color: $beige;
+}
+
+.in-short{
+    font-family: 'Merriweather';
+}
+
+.in-short p{
+    font-weight: 100;
+}
