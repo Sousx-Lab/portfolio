@@ -239,10 +239,17 @@ h5 {
 }
 
 .p-big {
-  line-height: 36px;
   font-weight: 200;
   font-size: 20px;
   color: #000;
+}
+
+.line-h-1 {
+  line-height: 32px;
+}
+
+.line-h-2 {
+  line-height: 36px;
 }
 
 ul {
@@ -349,15 +356,16 @@ a {
   }
 }
 
-.nav-wrapper {
+.nav-wrapper a {
   position: absolute;
   right: 0;
   margin-right: 8px;
   top: 28px;
+  color: #dee2e6;
 }
 
 @media only screen and (min-width: 768px) {
-  .nav-wrapper {
+  .nav-wrapper a {
     display: none;
   }
 }
@@ -402,7 +410,7 @@ a {
 #navbar {
   -webkit-box-shadow: 1px 3px 6px 0px #4d4d4d;
   box-shadow: 1px 3px 6px 0px #4d4d4d;
-  background-color: #fff;
+  background-color: #304387;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -414,11 +422,12 @@ a {
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
+  color: #f8f9fa;
 }
 
 .navbar .nav-item-active {
   font-weight: 600;
-  color: #063F3E;
+  color: #adb5bd;
 }
 
 /* Profile picture */
@@ -443,7 +452,7 @@ a {
 
 .name {
   padding-left: 0.7em;
-  color: #000;
+  color: #dee2e6;
   font-size: 20px;
   font-weight: 700;
 }
@@ -518,12 +527,12 @@ a {
   padding: 0.1em 0.2em 0.1em 0.2em;
 }
 
-.fa-html5:hover {
-  color: #BD5D38;
+.fa-docker:hover {
+  color: #2496ed;
 }
 
-.fa-css3-alt:hover {
-  color: #007bff;
+.fa-database:hover {
+  color: #dc3545;
 }
 
 .fa-js-square:hover {
@@ -579,7 +588,7 @@ footer {
   width: 100%;
   height: auto;
   padding-bottom: 2px;
-  background-color: #063F3E;
+  background-color: #BD5D38;
 }
 
 footer .container {

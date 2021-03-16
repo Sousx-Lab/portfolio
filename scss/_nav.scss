@@ -14,7 +14,7 @@
     }
     display: flex;
 }
-.nav-wrapper{
+.nav-wrapper a{
     @include md{
         display: none;
     }
@@ -22,6 +22,7 @@
     right: 0;
     margin-right: 8px;
     top: 28px;
+    color: $gray-300;
 }
 .navbar li{
     @include sm{
@@ -51,7 +52,7 @@
     -webkit-box-shadow: 1px 3px 6px 0px rgba(77,77,77,1);
     -moz-box-shadow: 1px 3px 6px 0px rgba(77,77,77,1);
     box-shadow: 1px 3px 6px 0px rgba(77,77,77,1);
-    background-color: $white;
+    background-color: $bleuNight;
     position: sticky;
     top:0;
     z-index: 1;
@@ -61,10 +62,11 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
+    color: $gray-100;
 }
 .navbar .nav-item-active{
     font-weight: 600;
-    color: $ruby;
+    color: $gray-500;
 }
 /* Profile picture */
 .profil{
@@ -79,7 +81,7 @@
 
 .name {
     padding-left: 0.7em;
-    color: $black;
+    color: $gray-300;
     font-size: 20px;
     font-weight: 700;
 }

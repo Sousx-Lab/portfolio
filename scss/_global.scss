@@ -59,10 +59,16 @@ h5{
 }
 
 .p-big{
-    line-height: 36px;
     font-weight: 200;
     font-size: 20px;
     color: $black;
+}
+.line-h-1{
+    line-height: 32px;
+}
+
+.line-h-2{
+    line-height: 36px;
 }
 
 ul {
