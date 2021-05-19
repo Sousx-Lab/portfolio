@@ -311,6 +311,8 @@ a {
   opacity: 0;
   -webkit-transition: opacity 0.3s;
   transition: opacity 0.3s;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 500;
 }
 
 .tooltip .tooltiptext::after {
@@ -410,7 +412,7 @@ a {
 #navbar {
   -webkit-box-shadow: 1px 3px 6px 0px #4d4d4d;
   box-shadow: 1px 3px 6px 0px #4d4d4d;
-  background-color: #304387;
+  background-color: #000;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -588,7 +590,7 @@ footer {
   width: 100%;
   height: auto;
   padding-bottom: 2px;
-  background-color: #BD5D38;
+  background-color: #ffc1079f;
 }
 
 footer .container {
@@ -604,7 +606,7 @@ footer .container {
 footer h1,
 footer h3,
 footer p {
-  color: #fff;
+  color: #212529;
 }
 
 .notbold {
