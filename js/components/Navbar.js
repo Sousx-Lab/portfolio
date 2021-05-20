@@ -48,7 +48,7 @@ export class Navbar {
             document.querySelector('body')
             .insertAdjacentHTML('afterbegin', this.markup());
         };
-        this.reponsive();
+        this.responsive();
         this.activeItems();
     };
 
@@ -72,7 +72,7 @@ export class Navbar {
 
     };
 
-    reponsive(){
+    responsive(){
         let bars = document.getElementById("nav-icon");
         let close = bars.getElementsByClassName('fa fa-bars fa-2x')[0];
         let navItems = document.getElementById("nav-items");
