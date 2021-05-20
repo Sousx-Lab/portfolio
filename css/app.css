@@ -189,6 +189,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 }
 
 html {
@@ -241,7 +242,7 @@ h5 {
 .p-big {
   font-weight: 200;
   font-size: 20px;
-  color: #000;
+  color: #495057;
 }
 
 .line-h-1 {
@@ -421,7 +422,7 @@ a {
 
 .navbar a {
   padding: 0 16px 0 16px;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 30px;
   color: #f8f9fa;

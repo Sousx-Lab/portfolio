@@ -11,12 +11,14 @@
     padding: 0;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 html{
     height: 100vh;
     overflow-y: scroll;
     scroll-behavior: smooth;
 }
+
 body {
     position: relative;;
     min-height: 100%;
@@ -24,7 +26,6 @@ body {
     padding-bottom: 250px;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
-    
 }
 
 h1,
@@ -62,7 +63,7 @@ h5{
 .p-big{
     font-weight: 200;
     font-size: 20px;
-    color: $black;
+    color: $gray-700;
 }
 .line-h-1{
     line-height: 32px;
